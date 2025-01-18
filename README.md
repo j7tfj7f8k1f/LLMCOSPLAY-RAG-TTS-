@@ -33,18 +33,23 @@ EN
 
 LLMCOSPLAY-RAG-TTS-
 
-Welcome to the notebook for implementing LLMCOSPLAY. First, I must express my sincere gratitude for Artrajz's vits-simple-api code. His API interface saved a lot of time.
+Welcome to the notebook for implementing LLMCOSPLAY. 
+First, I must express my sincere gratitude for Artrajz's vits-simple-api code. His API interface saved a lot of time.
 
 Preliminary steps:
 GOOGLE_API_KEY = the key for the Gemini API
 HF_TOKEN = the key for Hugging Face
-Next, please go to his API interface: https://colab.research.google.com/drive/1uBkMy0UjLE3C1zvxZ7NPPc3K74v4B6zw
+Next, please go to his API interface: 
+https://colab.research.google.com/drive/1uBkMy0UjLE3C1zvxZ7NPPc3K74v4B6zw
 
 After running it, you will get a shared link similar to:
 API_URL = "https://4cf4-54-157-39-105.ngrok-free.app/voice/vits"
 
-If you haven't trained a voice model yet, it is recommended to use Plachtaa/VITS-fast-fine-tuning: https://colab.research.google.com/drive/1pn1xnFfdLK63gVXDwV4zCXfVeo8c-I-0?usp=sharing
+If you haven't trained a voice model yet, it is recommended to use 
+Plachtaa/VITS-fast-fine-tuning: 
+https://colab.research.google.com/drive/1pn1xnFfdLK63gVXDwV4zCXfVeo8c-I-0?usp=sharing
 
-Finally, to implement llmcosplay, you need a JSON file with a structure like this, or you can slowly type it out yourself in Colab:
+Finally, to implement llmcosplay, 
+you need a JSON file with a structure like this, or you can slowly type it out yourself in Colab:
 
 [ { "title": "Full Name", "content": "Nagasaki Soyo" } ]
