@@ -5,7 +5,9 @@ LLMCOSPLAY-RAG-TTS-
 有他的API介面省了非常多的時間
 
 
-前置作業GOOGLE_API_KEY = gemini api的金鑰
+前置作業
+GOOGLE_API_KEY = gemini api的金鑰
+HF_TOKEN = huggingface的金鑰
 接下來請到他的API介面
 https://colab.research.google.com/drive/1uBkMy0UjLE3C1zvxZ7NPPc3K74v4B6zw
 
